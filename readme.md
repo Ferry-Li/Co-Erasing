@@ -6,7 +6,7 @@ This is the official code for the paper "One Image is Worth a Thousand Words: A 
 
 **Authors:  **[Feiran Li](https://ferry-li.github.io/), [Qianqian Xu\*](https://qianqianxu010.github.io/), [Shilong Bao](https://statusrank.github.io/), [Zhiyong Yang](https://joshuaas.github.io/), [Xiaochun Cao](https://scst.sysu.edu.cn/members/1401493.htm), [Qingming Huang\*](https://people.ucas.ac.cn/~qmhuang)
 
-![example](D:\School\School\66666\diffusion\Diffusion Safe\code\example.png)
+![example](assets/example.png)
 
 ## Installation
 
