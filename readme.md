@@ -1,6 +1,6 @@
 # Co-Erasing: Collaborative Erasing with Text-Image Prompts
 
-This is the official code for the paper "One Image is Worth a Thousand Words: A Usability-Preservable Text-Image Collaborative Erasing Framework" accepted by International Conference on Machine Learning (ICML2025).
+This is the official code for the paper "One Image is Worth a Thousand Words: A Usability-Preservable Text-Image Collaborative Erasing Framework" accepted by International Conference on Machine Learning (ICML2025). [paper](https://arxiv.org/abs/2505.11131).
 
 **Paper Title: One Image is Worth a Thousand Words: A Usability-Preservable Text-Image Collaborative Erasing Framework**
 
