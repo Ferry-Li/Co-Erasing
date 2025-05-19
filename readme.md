@@ -4,7 +4,7 @@ This is the official code for the paper "One Image is Worth a Thousand Words: A 
 
 **Paper Title: One Image is Worth a Thousand Words: A Usability-Preservable Text-Image Collaborative Erasing Framework**
 
-**Authors:**[Feiran Li](https://ferry-li.github.io/), [Qianqian Xu\*](https://qianqianxu010.github.io/), [Shilong Bao](https://statusrank.github.io/), [Zhiyong Yang](https://joshuaas.github.io/), [Xiaochun Cao](https://scst.sysu.edu.cn/members/1401493.htm), [Qingming Huang\*](https://people.ucas.ac.cn/~qmhuang)
+**Authors:** [Feiran Li](https://ferry-li.github.io/), [Qianqian Xu\*](https://qianqianxu010.github.io/), [Shilong Bao](https://statusrank.github.io/), [Zhiyong Yang](https://joshuaas.github.io/), [Xiaochun Cao](https://scst.sysu.edu.cn/members/1401493.htm), [Qingming Huang\*](https://people.ucas.ac.cn/~qmhuang)
 
 ![example](example.png)
 
