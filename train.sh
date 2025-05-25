@@ -3,7 +3,7 @@ python main.py \
   --train_method noxattn \
   --prompt nudity \
   --devices 0,1 \
-  --ckpt_path /data/feiran/stable-diffusion-v1-5
+  --ckpt_path PATH_TO_ORIGINAL_SD
 
 
 python main.py \
@@ -12,8 +12,8 @@ python main.py \
   --text_uncond \
   --prompt "nudity" \
   --devices 0,1 \
-  --unet_ckpt_path "checkpoints/text/nudity/unet/unet.pth" \
-  --image /data/feiran/robustDiffusion/generation_dataset_v1_5/nudity_0.85 \
+  --unet_ckpt_path PATH_TO_TEXT_ERASED_SD \
+  --image PATH_TO_IMAGE_DIR \
   --image_number 100 \
   --text_guide "nudity" \
   --blur_factor 3 \
