@@ -132,9 +132,8 @@ def train_image_mode(args):
             image_embeds = _sample_contrastive_embedding(args, concept_embeds, concept_embed_tensor)
 
         if use_text_guide:
-            query = text_embeddings # [1, 77, 768]
-            # image_embds:  [1, 1024]
-            key = origin_ip_adapter.image_proj_model(image_embeds) # [1, 4, 768]
+            key = text_embeddings
+            query = origin_ip_adapter.image_proj_model(image_embeds)
             value = key
             
             attention_scores = torch.matmul(query.to(origin_unet.device), key.to(origin_unet.device).transpose(1, 2))
