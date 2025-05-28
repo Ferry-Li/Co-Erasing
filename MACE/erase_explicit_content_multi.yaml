@@ -99,4 +99,5 @@ MACE:
   image_encoder_path: PATH_TO_IMAGE_ENCODER
   modality: text (or image)
   image: PATH/TO/IMAGE_DIR_OF_CONCEPT_TO_BE_ERASED
+  text_guide: True or False
   latent_num: 1
