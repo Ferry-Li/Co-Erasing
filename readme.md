@@ -10,7 +10,7 @@ This is the official code for the paper "One Image is Worth a Thousand Words: A 
 
 ## Installation
 
-- Some codes and arxiv paper is under construction and examination, and we will update as soon as possible.
+- Some codes and checkpoints are under examination, and we will update as soon as possible.
 
 Clone this repository:
 
@@ -37,13 +37,33 @@ Before training, there are a few steps.
 - Step2: Acquire a pretrained text-based erased model (such as ESD), or simply run
 
   ```bash
-  python erase_pipeline.py --modality text --prompt 'nudity' --train_method noxattn  --iterations 1000
+  python main.py \
+  --modality text \
+  --train_method noxattn \
+  --prompt nudity \
+  --devices 0,1 \
+  --ckpt_path PATH_TO_SD
   ```
 
 - Step3: Conduct Co-erasing:
 
   ```bash
-  python erase_pipeline.py --modality image --train_method noxattn --text_uncond --prompt 'nudity' --devices 0,1 --unet_ckpt_path "checkpoints/text/bird/unet/unet.pth" --image generation_dataset/nudity --image_number 100 --text_guide nudity --blur_factor 3 --iterations 1000 --negative_guidance 1.0
+  python main.py \
+  --modality image \
+  --train_method full \
+  --text_uncond \
+  --prompt "nudity" \
+  --devices 2,3 \
+  --unet_ckpt_path PATH_TO_TEXT_ERASED_SD \
+  --image PATH_TO_IMAGE_DIR \
+  --image_number 200 \
+  --text_guide "nudity" \
+  --blur_factor 5 \
+  --iterations 1500 \
+  --negative_guidance 1.0 \
+  --output_dir outputs \
+  --logging_dir log \
+  --save_iter 500
   ```
 
 # Evaluation
