@@ -2,8 +2,7 @@
 
 This is the official code for the paper "One Image is Worth a Thousand Words: A Usability-Preservable Text-Image Collaborative Erasing Framework" accepted by International Conference on Machine Learning (ICML2025).
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2505.11131)    [![checkpoints](https://img.shields.io/badge/hugging%20face-checkpoint-1082c3
-)]([https://arxiv.org/abs/2505.11131](https://huggingface.co/Ferry30/Co-Erasing))  [![video](https://img.shields.io/badge/Video-Presentation-F9D371)](https://github.com/Ferry-Li/Co-Erasing)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2505.11131)    [![checkpoints](https://img.shields.io/badge/hugging%20face-checkpoint-1082c3)](https://huggingface.co/Ferry30/Co-Erasing)  [![video](https://img.shields.io/badge/Video-Presentation-F9D371)](https://github.com/Ferry-Li/Co-Erasing)
 
 **Paper Title: One Image is Worth a Thousand Words: A Usability-Preservable Text-Image Collaborative Erasing Framework**
 
