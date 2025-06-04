@@ -11,6 +11,7 @@ This is the official code for the paper "One Image is Worth a Thousand Words: A 
 ## Installation
 
 - Some codes and checkpoints are under examination, and we will update as soon as possible.
+- We update some checkpoints [here](https://huggingface.co/Ferry30/Co-Erasing). The models are based on [ESD](https://github.com/rohitgandikota/erasing).
 
 Clone this repository:
 
